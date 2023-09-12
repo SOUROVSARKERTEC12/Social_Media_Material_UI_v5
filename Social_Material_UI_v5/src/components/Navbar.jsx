@@ -164,7 +164,7 @@ export const Navbar = () => {
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
+            <AppBar position="static" sx={{borderRadius:'20px'}}>
                 <Toolbar>
                     <IconButton
                         size="large"
@@ -181,7 +181,7 @@ export const Navbar = () => {
                         component="div"
                         sx={{ display: { xs: 'none', sm: 'block' } }}
                     >
-                        Media Menu
+                       Wild Media
                     </Typography>
                     <Search>
                         <SearchIconWrapper>
