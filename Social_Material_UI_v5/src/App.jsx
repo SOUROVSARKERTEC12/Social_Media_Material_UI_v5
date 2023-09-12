@@ -3,6 +3,7 @@ import {Feed} from "./components/Feed.jsx";
 import {Rightbar} from "./components/Rightbar.jsx";
 import {Box, createTheme, Stack, ThemeProvider} from "@mui/material";
 import {Navbar} from "./components/Navbar.jsx";
+import {Add} from "./components/Add.jsx";
 import {useState} from "react";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                   <Feed/>
                   <Rightbar/>
               </Stack>
+              <Add/>
           </Box>
       </ThemeProvider>
   )
