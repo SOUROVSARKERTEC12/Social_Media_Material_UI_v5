@@ -31,7 +31,7 @@ export const Rightbar = () => {
                         alt="Cindy Baker"
                         src="https://material-ui.com/static/images/avatar/3.jpg"
                     />
-                    <Avatar alt="Agnes Walker" src=""/>
+                    <Avatar alt="Agnes Walker" src="https://material-ui.com/static/images/avatar/3.jpg"/>
                     <Avatar
                         alt="Trevor Henderson"
                         src="https://material-ui.com/static/images/avatar/6.jpg"
@@ -66,6 +66,12 @@ export const Rightbar = () => {
                     <ImageListItem>
                         <img
                             src="https://material-ui.com/static/images/image-list/burgers.jpg"
+                            alt=""
+                        />
+                    </ImageListItem>
+                    <ImageListItem>
+                        <img
+                            src="https://material-ui.com/static/images/image-list/camera.jpg"
                             alt=""
                         />
                     </ImageListItem>
